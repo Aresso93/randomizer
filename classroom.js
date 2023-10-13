@@ -15,5 +15,15 @@ class Classroom{
 
     }
 
+    randomizeStudent(){
+
+        
+    }
+    
+    
+    printSquads(){
+
+        
+    }
 
 }

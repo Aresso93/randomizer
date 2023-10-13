@@ -9,7 +9,6 @@
 //        -randomizeStudent()
 //        -printSquads()
 
-console.log('TATSUMAKI SENPUKYAKU');
 
 const student1 = new Student('Ares', 'Fiumicelli');
 
@@ -27,7 +26,7 @@ const student7 = new Student('Luca', 'Verduci');
 
 const student8 = new Student('Bryan', 'Rojas');
 
-const student9 = new Student('Damiano', 'Damianetti');
+const student9 = new Student('Damiano', 'Di Lionardo');
 
 const student10 = new Student('Cesare', 'Falzone');
 
@@ -48,7 +47,18 @@ console.log(scrambledArray);
 
 function pickTeams(array){
 
+    for (let i = 0; i < array.length; i+=2) {
+        const element1 = array[i];
+        const element2 = array[i + 1];
+       
+        console.log(element1, element2);
+       
+       }
+    }
    
 
 
-}
+
+
+console.log(pickTeams(studentsArray));
+
